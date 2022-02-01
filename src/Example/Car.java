@@ -40,6 +40,6 @@ public class Car {
     }
 
     public String StringOf (){
-        return "Brand: " + getBrand() +  "Color: " + getColor();
+        return "Brand: " + getBrand() + " " + "Color: " + getColor();
     }
 }

@@ -28,6 +28,7 @@ public class ThreadServer {
                     ) {
                         Car car = new Car();
                         while (in.hasNextLine()) {
+                            System.out.println("Client want to create a car");
                             String input = in.nextLine();
                             car.setBrand(in.nextLine());
                             car.setColor(in.nextLine());
